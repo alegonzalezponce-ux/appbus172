@@ -37,7 +37,11 @@ jobs:
           fi
           if [ -f manifest.webmanifest ]; then
             cp manifest.webmanifest public/
-          fi
+          fi          
+          cp icon-180.png public/
+          cp icon-192.png public/
+          cp icon-512.png public/
+        
           if [ -f sw.js ]; then
             cp sw.js public/
           fi
