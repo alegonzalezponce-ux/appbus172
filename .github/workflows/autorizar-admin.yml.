@@ -1,0 +1,19 @@
+
+name: Autorizar administrador Appbus172
+
+on:
+  workflow_dispatch:
+
+permissions:
+  contents: read
+
+jobs:
+  autorizar:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Comprobar configuración
+        run: |
+          echo "Preparación de Appbus172"
+          echo "Proyecto: appbus172-oficial-7e77a"
+          echo "Pendiente de configurar autorización segura"
+          
